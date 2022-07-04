@@ -9,7 +9,7 @@
 
 function setproxy() {
 
-    PROXY="http://10.153.151.4:8080/"
+    PROXY="<proxy>"
     export {HTTP,HTTPS}_PROXY=$PROXY
 
 }
